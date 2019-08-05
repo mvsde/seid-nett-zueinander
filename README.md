@@ -10,6 +10,10 @@ Use the [jsDelivr CDN](https://www.jsdelivr.com/package/npm/seid-nett-zueinander
 <script src="https://cdn.jsdelivr.net/npm/seid-nett-zueinander" defer></script>
 ```
 
+## Demo
+
+A simple [demo page](https://mvsde.github.io/seid-nett-zueinander/) is available.
+
 ## Development
 
 Start webpack in dev mode:
