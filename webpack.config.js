@@ -1,10 +1,14 @@
 const path = require('path')
 
-module.exports = {
+module.exports = (env, argv) => ({
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js'
+    path: argv.mode === 'production'
+      ? path.resolve(__dirname, 'dist')
+      : path.resolve(__dirname, 'dev'),
+    filename: argv.mode === 'production'
+      ? 'main.min.js'
+      : 'main.js'
   },
   module: {
     rules: [
@@ -39,4 +43,4 @@ module.exports = {
       }
     ]
   }
-}
+})

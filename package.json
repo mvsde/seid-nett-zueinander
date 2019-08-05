@@ -32,7 +32,7 @@
     "src"
   ],
   "main": "src/main.js",
-  "browser": "dist/main.js",
+  "browser": "dist/main.min.js",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
