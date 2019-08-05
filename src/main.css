@@ -1,0 +1,57 @@
+.seid-nett-zueinander-link {
+  position: fixed;
+  display: inline-block;
+  left: 0;
+  bottom: 0;
+
+  transform: translate(5%, 52%) rotate(9deg);
+
+  transition: transform 0.3s;
+  animation: seid-nett-zueinander 3.5s;
+
+  will-change: transform;
+}
+
+.seid-nett-zueinander-link:hover,
+.seid-nett-zueinander-link:focus {
+  transform: translate(10%, -10%);
+}
+
+.seid-nett-zueinander-image {
+  width: 12em;
+  height: 12em;
+}
+
+@keyframes seid-nett-zueinander {
+  0% {
+    transform: translate(5%, 100%);
+  }
+
+  70% {
+    transform: translate(5%, 100%);
+  }
+
+  75% {
+    transform: translate(5%, -20%);
+  }
+
+  80% {
+    transform: translate(5%, 80%);
+  }
+
+  85% {
+    transform: translate(5%, 20%) rotate(3deg);
+  }
+
+  90% {
+    transform: translate(5%, 60%) rotate(5deg);
+  }
+
+  95% {
+    transform: translate(5%, 40%) rotate(7deg);
+  }
+
+  100% {
+    transform: translate(5%, 52%) rotate(9deg);
+  }
+}

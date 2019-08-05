@@ -1,0 +1,56 @@
+{
+  "name": "seid-nett-zueinander",
+  "version": "0.1.0",
+  "description": "Badge for the promotion “Seid nett zueinander” of the German newspaper “Hamburger Abendblatt”.",
+  "author": {
+    "name": "Fynn Becker",
+    "email": "post@fynn.be",
+    "url": "https://fynn.be"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mvsde/seid-nett-zueinander",
+  "keywords": [
+    "seid nett zueinander",
+    "be nice",
+    "hamburger abendblatt",
+    "newspaper",
+    "german"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvsde/seid-nett-zueinander"
+  },
+  "scripts": {
+    "dev": "webpack --watch --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint src/**/*.js",
+    "prepack": "npm run build",
+    "release": "standard-version"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "src/main.js",
+  "browser": "dist/main.js",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.1.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "postcss-loader": "^3.0.0",
+    "standard-version": "^7.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
