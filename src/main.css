@@ -3,23 +3,35 @@
   display: inline-block;
   left: 0;
   bottom: 0;
+  margin: 0;
+  padding: 0;
 
   transform: translate(5%, 52%) rotate(9deg);
 
   transition: transform 0.3s;
   animation: seid-nett-zueinander 3.5s;
-
   will-change: transform;
+
+  background: none;
+  border: 0;
 }
 
 .seid-nett-zueinander-link:hover,
 .seid-nett-zueinander-link:focus {
   transform: translate(10%, -10%);
+
+  background: none;
+  border: 0;
 }
 
 .seid-nett-zueinander-image {
   width: 12em;
   height: 12em;
+  padding: 0;
+  margin: 0;
+
+  background: none;
+  border: 0;
 }
 
 @keyframes seid-nett-zueinander {
