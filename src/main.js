@@ -1,6 +1,6 @@
 import './main.css'
 
-const LINK = 'https://www.abendblatt.de/hamburg/article226649773/Abendblatt-startet-Aktion-fuer-mehr-Mitmenschlichkeit.html'
+const LINK = 'https://lfda.de/news/seid-nett-zueinander-lfda-unterstuetzt-die-aktion-des-hamburger-abendblattes'
 const LINK_CLASS = 'seid-nett-zueinander-link'
 const IMAGE_CLASS = 'seid-nett-zueinander-image'
 const IMAGE_ALT = 'Seid nett zueinander (Hamburger Abendblatt)'
