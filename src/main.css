@@ -1,12 +1,12 @@
 .seid-nett-zueinander-link {
   position: fixed;
   display: inline-block;
-  left: 0;
+  right: 1em;
   bottom: 0;
   margin: 0;
   padding: 0;
 
-  transform: translate(5%, 52%) rotate(9deg);
+  transform: translateY(52%) rotate(9deg);
 
   transition: transform 0.3s;
   animation: seid-nett-zueinander 3.5s;
@@ -18,7 +18,7 @@
 
 .seid-nett-zueinander-link:hover,
 .seid-nett-zueinander-link:focus {
-  transform: translate(10%, -10%);
+  transform: translate(-10%, -10%);
 
   background: none;
   border: 0;
@@ -38,34 +38,34 @@
 
 @keyframes seid-nett-zueinander {
   0% {
-    transform: translate(5%, 100%);
+    transform: translateY(100%);
   }
 
   70% {
-    transform: translate(5%, 100%);
+    transform: translateY(100%);
   }
 
   75% {
-    transform: translate(5%, -20%);
+    transform: translateY(-20%);
   }
 
   80% {
-    transform: translate(5%, 80%);
+    transform: translateY(80%);
   }
 
   85% {
-    transform: translate(5%, 20%) rotate(3deg);
+    transform: translateY(20%) rotate(3deg);
   }
 
   90% {
-    transform: translate(5%, 60%) rotate(5deg);
+    transform: translateY(60%) rotate(5deg);
   }
 
   95% {
-    transform: translate(5%, 40%) rotate(7deg);
+    transform: translateY(40%) rotate(7deg);
   }
 
   100% {
-    transform: translate(5%, 52%) rotate(9deg);
+    transform: translateY(52%) rotate(9deg);
   }
 }
