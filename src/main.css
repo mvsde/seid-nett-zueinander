@@ -14,6 +14,7 @@
 
   background: none;
   border: 0;
+  border-radius: 50%;
 }
 
 .seid-nett-zueinander-link:hover,
@@ -22,6 +23,17 @@
 
   background: none;
   border: 0;
+}
+
+.seid-nett-zueinander-link::after {
+  content: "";
+
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 25%;
 }
 
 .seid-nett-zueinander-image {
@@ -34,6 +46,7 @@
 
   background: none;
   border: 0;
+  border-radius: 50%;
 }
 
 @keyframes seid-nett-zueinander {
